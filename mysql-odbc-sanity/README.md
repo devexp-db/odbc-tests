@@ -7,7 +7,7 @@ So, in order to test `pyodbc` or `mysql-connector-odbc` packages, do the
 following:
 
 ```
-#> yum install pyodbc mysql-connector-odbc
+#> yum install pyodbc mysql-connector-odbc unixODBC
 #> service mysqld start
 #> ./runtest.sh
 ```
